@@ -21,14 +21,14 @@ Measuring time of pressing button (seconds) and sending result to terminal throu
 
 # Compilation
 In Keil Vision, open project.
-Go to _Project->Options->Add Erase Flash_
+Go to _Project->Options->Utilities->Settings->Erase Full Chip->STM32F0xx 128kB Flash
 
-After it Compile, Debug and Load to Flash.
+After _Translate, Build and Load_.
 
 # UART-USB
 Set 5.0V on UART board,
 Connect PA_0 and RX pin on UART board and GND.
 Connect UART board to your PC, open Terminal (TeraTerm, for example).
-Connect to COM port of UART board, set 115200 bauds/sec.
+Connect to COM port of UART board, set 115200 bits/sec.
 
 __Press button more than 1 sec.__
