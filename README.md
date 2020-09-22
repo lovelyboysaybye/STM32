@@ -14,7 +14,7 @@ Measuring time of pressing button (seconds) and sending result to terminal throu
 ![](IMG/UART_CONF.jpg)
   - BaundRate: __115100 bit/sec__
 * TIM16
-![](IMG/TIM_CONF.jpg)
+![](IMG/TIM16_CONF.jpg)
   - Prescaler: __48000- 1__ (that's mean, that 48MHz divide on 48000 and we get T=1000, so one tick=0,001sec)
 * PC13
   - GPIO_OUTPUT
