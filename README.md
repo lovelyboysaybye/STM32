@@ -32,3 +32,5 @@ Connect UART board to your PC, open Terminal (TeraTerm, for example).
 Connect to COM port of UART board, set 115200 bits/sec.
 
 __Press button more than 1 sec.__
+
+MAX MEASURING TIME is 65 seconds.
