@@ -11,8 +11,8 @@ Measuring time of pressing button (seconds) and sending result to terminal throu
 # Configurations
 [STM_PINS](IMG/STM_PINS.jpg)
 * USART4
-- BaundRate: __115100 bit/sec__
+  - BaundRate: __115100 bit/sec__
 * TIM16
-- Prescaler: __48000- 1__ (that's mean, that 48MHz divide on 48000 and we get T=1000, so one tick=0,001sec)
+  - Prescaler: __48000- 1__ (that's mean, that 48MHz divide on 48000 and we get T=1000, so one tick=0,001sec)
 * PC13
-- GPIO_OUTPUT
+  - GPIO_OUTPUT
