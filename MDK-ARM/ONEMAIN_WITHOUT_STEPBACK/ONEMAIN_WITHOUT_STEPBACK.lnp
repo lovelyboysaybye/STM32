@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"onemain_without_stepback\startup_stm32f072xb.o"
+"onemain_without_stepback\main.o"
+"onemain_without_stepback\stm32f0xx_it.o"
+"onemain_without_stepback\stm32f0xx_hal_msp.o"
+"onemain_without_stepback\stm32f0xx_hal_tim.o"
+"onemain_without_stepback\stm32f0xx_hal_tim_ex.o"
+"onemain_without_stepback\stm32f0xx_hal_rcc.o"
+"onemain_without_stepback\stm32f0xx_hal_rcc_ex.o"
+"onemain_without_stepback\stm32f0xx_hal.o"
+"onemain_without_stepback\stm32f0xx_hal_i2c.o"
+"onemain_without_stepback\stm32f0xx_hal_i2c_ex.o"
+"onemain_without_stepback\stm32f0xx_hal_gpio.o"
+"onemain_without_stepback\stm32f0xx_hal_dma.o"
+"onemain_without_stepback\stm32f0xx_hal_cortex.o"
+"onemain_without_stepback\stm32f0xx_hal_pwr.o"
+"onemain_without_stepback\stm32f0xx_hal_pwr_ex.o"
+"onemain_without_stepback\stm32f0xx_hal_flash.o"
+"onemain_without_stepback\stm32f0xx_hal_flash_ex.o"
+"onemain_without_stepback\stm32f0xx_hal_exti.o"
+"onemain_without_stepback\stm32f0xx_hal_uart.o"
+"onemain_without_stepback\stm32f0xx_hal_uart_ex.o"
+"onemain_without_stepback\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "ONEMAIN_WITHOUT_STEPBACK\ONEMAIN_WITHOUT_STEPBACK.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ONEMAIN_WITHOUT_STEPBACK.map" -o ONEMAIN_WITHOUT_STEPBACK\ONEMAIN_WITHOUT_STEPBACK.axf
