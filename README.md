@@ -25,7 +25,7 @@ Go to _Project->Options->Add Erase Flash_
 
 After it Compile, Debug and Load to Flash.
 
-#UART-USB
+# UART-USB
 Set 5.0V on UART board,
 Connect PA_0 and RX pin on UART board and GND.
 Connect UART board to your PC, open Terminal (TeraTerm, for example).
