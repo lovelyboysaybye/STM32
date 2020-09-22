@@ -21,7 +21,7 @@ Measuring time of pressing button (seconds) and sending result to terminal throu
 
 # Compilation
 In Keil Vision, open project.
-Go to _Project->Options->Utilities->Settings->Erase Full Chip->STM32F0xx 128kB Flash
+Go to _Project->Options->Utilities->Settings->Erase Full Chip->STM32F0xx 128kB Flash_
 
 After _Translate, Build and Load_.
 
